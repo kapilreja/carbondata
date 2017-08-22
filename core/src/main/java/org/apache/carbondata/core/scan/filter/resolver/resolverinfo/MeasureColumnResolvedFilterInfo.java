@@ -109,9 +109,7 @@ public class MeasureColumnResolvedFilterInfo extends ColumnResolvedFilterInfo
     this.type = dataType;
   }
 
-  public boolean isMeasureExistsInCurrentSlice() {
-    return true;
-  }
+
 
   public CarbonColumn getCarbonColumn() {
     return carbonColumn;
@@ -125,9 +123,7 @@ public class MeasureColumnResolvedFilterInfo extends ColumnResolvedFilterInfo
     return carbonMeasure;
   }
 
-  public boolean isMeasureExistsInCurrentSilce() {
-    return isMeasureExistsInCurrentSilce;
-  }
+ 
 
   public void setMeasureExistsInCurrentSilce(boolean measureExistsInCurrentSilce) {
     isMeasureExistsInCurrentSilce = measureExistsInCurrentSilce;

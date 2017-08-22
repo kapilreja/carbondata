@@ -353,7 +353,7 @@ public class SegmentUpdateStatusManager {
    *
    * @param blockDir
    * @param blockNameFromTuple
-   * @param listOfSegmentUpdateDetailsArray
+   * @param segment
    * @param extension
    * @return
    */
@@ -458,7 +458,7 @@ public class SegmentUpdateStatusManager {
         });
       }
     }
-    return null;
+    return new CarbonFile[0];
   }
 
   /**
